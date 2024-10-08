@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: violet;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.course-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 15px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+div{
+    background-color: bisque;
+    font-size: medium;
+    font-style: italic;
+    font-family: sans-serif;
+}
+nav{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
